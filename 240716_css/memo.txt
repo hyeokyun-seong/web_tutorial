@@ -1,1 +1,9 @@
 
+html과 css의 첫 수업이다.
+css에서 style tag를 통해 
+html의 body에서 구현된 버튼객체들에 대해서 attribute를 부여해줄 수 있다.
+또한 hover, active와 같은 psuedo-active class등을 통해
+마우스커서가 버튼에 올려졌을 때, 클릭되었을 때 action등을 css상에서 설정해줄 수 있다.
+
+버튼의 margin-border-padding 순서의 여백과 테두리 attribute를 이해하고 
+border-style, border-radius, box-shadow 등의 attribute를 잘 외워두도록 하자.
