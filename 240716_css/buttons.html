@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .subscribe-btn {
+            background-color: rgb(200,0,0);
+            color:white;
+            border: none;
+            height:36px;
+            width:100px;
+            /* 모서리깎기 */
+            border-radius: 2px;
+            cursor: pointer; /*버튼 만들기*/
+            margin-right:8px;
+            transition: opacity 0.15s;
+        }
+        .subscribe-btn:hover{
+            opacity: 0.7;
+        }
+        .subscribe-btn:active{
+            opacity: 0.4;
+        }
+
+
+        .join-btn{
+            background-color: white;
+            color:black;
+            border-color: rgb(41,118,211);
+            border-style: solid;
+            border-width: 1px;
+            color: rgb(41,118,211);
+            height: 36px;
+            width: 100px;
+            border-radius:2px;
+            cursor: pointer;
+            margin-left:8px;
+            margin-right:8px;
+            padding-left:30px;
+            padding-top:20px
+        }
+        .join-btn:hover{
+            background-color: rgb(41,118,211);
+            color: white;
+        }
+        .join-btn:active{
+            opacity:0.7;
+        }
+
+        .tweet-btn{
+            background-color: rgb(24, 121, 223);
+            color: white;
+            height:36px;
+            width:70px;
+            border-color:rgb(0, 123, 255);
+            border-style:solid;
+            border-radius:30px;
+            font-weight:bold;
+            font-size:15px;
+            box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+        }
+        .tweet-btn:hover{
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+        }
+
+    </style>
+    
+    <button class="subscribe-btn">SUBSCRIBE</button>
+    <button class="join-btn">JOIN</button>
+    <button class="tweet-btn">Tweet</button>
+</body>
+</html>
